@@ -1,0 +1,17 @@
+﻿//Consultas para Servicios Alquiler Impl (no incluye las operaciones que se deben realizar por fuera)
+//valorMultaRetrasoxDia (En ItemMapper)
+Despues de recibir la fechafinrenta, se compara con la fecha actual y se obtiene el npumero de dias
+Se multiplica el número de dias por la tarifaxdia y ese es el resultado
+
+
+//consultarItemsDisponibles (En ItemMapper)
+
+
+//registrarAlquilerCliente (En ItemRentadoMapper)
+Falta arreglar el error de incopatibilidad entre java.sql.Date y java.util.Date
+
+//consultarCostoAlquiler (En ItemMapper)
+
+//actualizarTarifaItem (En ItemMapper)
+
+//vetarcliente (En ClienteMapper)
